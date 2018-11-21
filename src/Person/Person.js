@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-
-const person = () => {
-    
+const person = (props) => {
+    return <p>I'm {props.name} and I am {Math.floor(Math.random()* 30)} years old!</p>
 }
 
-
-
-
-class Person extends Component {}
+export default person;
